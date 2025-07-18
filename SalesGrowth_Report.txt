@@ -1,0 +1,12 @@
+Sales Summary Report
+
+Total Orders: 9994
+ Total Sales: $2,297,200.86
+ Total Profit: $286,397.02
+Avg Profit per Order: $28.66
+ Top-Selling Category: Technology
+
+ Products Losing Money: 766 found
+ Best Region by Sales: West
+
+ End of Report

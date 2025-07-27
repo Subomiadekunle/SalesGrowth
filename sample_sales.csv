@@ -1,0 +1,7 @@
+Order ID,Order Date,Region,Product,Quantity Ordered,Price Each,Sales,Profit
+CA-2019-1001,2019-01-03,West,Stapler,2,15.99,31.98,10.00
+CA-2019-1002,2019-01-04,East,Paper,5,3.99,19.95,5.00
+CA-2019-1003,2019-01-05,Central,Chair,1,89.99,89.99,30.00
+CA-2019-1004,2019-01-07,West,Binder,3,4.99,14.97,4.00
+CA-2019-1005,2019-01-10,South,Phone,1,199.99,199.99,70.00
+CA-2019-1006,2019-01-12,East,Monitor,2,129.99,259.98,80.00

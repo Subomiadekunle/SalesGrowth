@@ -1,3 +1,4 @@
+import io
 import streamlit as st
 import pandas as pd
 from analysis.chart import show_charts
@@ -91,7 +92,8 @@ if "user_name" in st.session_state and "data_type" in st.session_state:
 
     if uploaded_file:
         if uploaded_file.name.endswith(".csv"):
-            df = pd.read_csv(uploaded_file, encoding="ISO-8859-1")
+            import io
+            df = pd.read_csv(io.StringIO(uploaded_file.getvalue().decode("ISO-8859-1")))
         else:
             df = pd.read_excel(uploaded_file)
 

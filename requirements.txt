@@ -1,4 +1,7 @@
 plotly
+prophet
+
 streamlit
 pandas
 scikit-learn
+sklearn.ensemble 

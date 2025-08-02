@@ -1,6 +1,6 @@
-numpy==1.24.4
+plotly
+prophet==1.1.5
+streamlit
 pandas
 scikit-learn
-plotly
-streamlit
-prophet==1.1.5
+numpy==1.24.4

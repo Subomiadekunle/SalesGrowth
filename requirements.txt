@@ -1,6 +1,6 @@
 plotly
 prophet[cmdstanpy]
-
+prophet
 streamlit
 pandas
 scikit-learn

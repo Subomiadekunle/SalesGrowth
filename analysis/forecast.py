@@ -1,5 +1,4 @@
 # analysis/forecast.py
-from prophet import Prophet
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -40,7 +39,7 @@ def show_forecast(df):
         forecast = model.predict(future)
 
         # Plot forecast
-        fig = px.line(forecast, x='ds', y='yhat', title='Forecasted Sales (Next 30 Days)', markers=True)
+        fig = px.line(forecast, x=' Date ', y=' Sales', title='Forecasted Sales (Next 30 Days)', markers=True)
         st.plotly_chart(fig, use_container_width=True)
 
         # Show forecast table
